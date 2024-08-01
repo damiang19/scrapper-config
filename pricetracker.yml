@@ -1,2 +1,14 @@
 server.error.include-message: always
 logging.level.org.hibernate.SQL: DEBUG
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.100.116:5432/postgres
+    username: postgres
+    password: docker
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+      show-sql: true
