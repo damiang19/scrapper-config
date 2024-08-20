@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.100.116:5433/scrapper
+    url: ${SPRING_DATASOURCE_URL}
     username: postgres
     password: docker
   jpa:
