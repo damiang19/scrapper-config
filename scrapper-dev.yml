@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: "${SPRING_DATASOURCE_URL}"
     username: postgres
     password: docker
   jpa:
